@@ -1,0 +1,64 @@
+body{
+    background-color: #2e2e44 !important;
+    
+}
+.main-box{
+    text-align: center;
+    background: linear-gradient(45deg, #24ff6d, #2f93f1, #ff5e9a);
+    border-radius: 20px;
+    width: 30%;
+    padding: 10px;
+    margin: auto;
+    margin-top: 20%;
+    transform: translateY(-20%);
+    align-items: center;
+    overflow: auto;
+    box-shadow: 0px 5px 25px 20px rgba(120, 137, 177, 0.8);
+}
+.time{
+    display: flex;
+    position: relative;
+    float: left;
+    border-radius: 50px;
+    margin-left: 60px;
+}
+.hours{
+    font-weight: 600;
+}
+.minutes{
+    font-weight: 600;
+}
+.seconds{
+    position: absolute;
+    top: 60px;
+    right: -35px;
+    font-weight:900;
+    font-size: 24px;
+    background: -webkit-linear-gradient(#d3d612, #b6a484);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    }
+.periods{
+    position: absolute;
+    bottom: 40px;
+    right: -45px;
+    font-weight:900;
+    font-size: 24px;
+    background: -webkit-linear-gradient(#6098eb, #81dd65);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.calender{
+   border: 2px solid;
+   border-radius: 30px;
+   font-size:30px;
+   font-weight:900;
+   width:350px;
+   margin-left:60px;
+   margin-bottom: 10px;
+   clear: both;
+   background: -webkit-linear-gradient(#c4b7bc, #ce1b98);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
